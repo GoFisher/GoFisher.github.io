@@ -1,16 +1,21 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
-    <title>余心所善，九死未悔！</title>
-    <link href="http://example.com" />
-    <updated>2020-11-17T15:29:02.000Z</updated>
-    <category term="Hadoop 大数据" />
-    <category term="测试" />
-    <entry>
-        <id>http://example.com/2020/11/17/Hadoop%E9%9B%86%E7%BE%A4%E7%9A%84%E6%90%AD%E5%BB%BA%E5%8F%8A%E9%85%8D%E7%BD%AE/</id>
-        <title>Hadoop集群的搭建及配置</title>
-        <link rel="alternate" href="http://example.com/2020/11/17/Hadoop%E9%9B%86%E7%BE%A4%E7%9A%84%E6%90%AD%E5%BB%BA%E5%8F%8A%E9%85%8D%E7%BD%AE/"/>
-        <content type="html">&lt;h1 id=&#34;任务背景&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#任务背景&#34;&gt;#&lt;/a&gt; 任务背景&lt;/h1&gt;
+<rss version="2.0">
+    <channel>
+        <title>余心所善，九死未悔！ • Posts by &#34;hadoop 大数据&#34; tag</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 17 Nov 2020 23:29:02 +0800</pubDate>
+        <lastBuildDate>Tue, 17 Nov 2020 23:29:02 +0800</lastBuildDate>
+        <category>Hadoop 大数据</category>
+        <category>测试</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2020/11/17/Hadoop%E9%9B%86%E7%BE%A4%E7%9A%84%E6%90%AD%E5%BB%BA%E5%8F%8A%E9%85%8D%E7%BD%AE/</guid>
+            <title>Hadoop集群的搭建及配置</title>
+            <link>http://example.com/2020/11/17/Hadoop%E9%9B%86%E7%BE%A4%E7%9A%84%E6%90%AD%E5%BB%BA%E5%8F%8A%E9%85%8D%E7%BD%AE/</link>
+            <category>Hadoop 大数据</category>
+            <pubDate>Tue, 17 Nov 2020 23:29:02 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;任务背景&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#任务背景&#34;&gt;#&lt;/a&gt; 任务背景&lt;/h1&gt;
 &lt;p&gt;本文档较为细致地演示在个人计算机上搭建 Hadoop 完全分布式环境的过程。为了保证能较顺畅地运行 Hadoop 集群，并可以进行基本的大数据开发调试，建议个人计算机硬件最低配置为：内存至少 8GB，硬盘可用容量至少 100GB，CPU 为 Intel i3 以上的处理器。在搭建完全分布式集群之前，还需要准备好必要的软件包，主要的软件和版本如下表所示。&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -68,26 +73,7 @@
 &lt;/table&gt;
 &lt;p&gt;Hadoop 完全分布式集群是典型的主从架构，一般需要使用多台服务器来组建。本文集群的拓扑图如下所示，请注意各个服务器的 IP 与名称，在后续的配置工作中将会经常被使用。&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;source_posts%5Cimages%5C2.png&#34; alt=&#34;image-20201118001343393&#34; /&gt;&lt;/p&gt;
-</content>
-        <category term="Hadoop 大数据" />
-        <updated>2020-11-17T15:29:02.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/2020/11/14/demo2/</id>
-        <title>demo2</title>
-        <link rel="alternate" href="http://example.com/2020/11/14/demo2/"/>
-        <content type="html">&lt;p&gt;你这个坏孩子，没有人怪你啊&lt;/p&gt;
-&lt;p&gt;sss&lt;/p&gt;
-</content>
-        <updated>2020-11-14T12:27:26.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/2020/11/14/My-New-Post/</id>
-        <title>My New Post</title>
-        <link rel="alternate" href="http://example.com/2020/11/14/My-New-Post/"/>
-        <content type="html">&lt;p&gt;dsfsdfsdfsd 多少发 第三方是的发水电费是 水电费发是的 发的 d&#39;s&lt;/p&gt;
-</content>
-        <category term="测试" />
-        <updated>2020-11-14T08:38:35.000Z</updated>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>

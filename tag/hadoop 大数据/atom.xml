@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://example.com</id>
-    <title>余心所善，九死未悔！</title>
+    <title>余心所善，九死未悔！ • Posts by &#34;hadoop 大数据&#34; tag</title>
     <link href="http://example.com" />
     <updated>2020-11-17T15:29:02.000Z</updated>
     <category term="Hadoop 大数据" />
@@ -71,23 +71,5 @@
 </content>
         <category term="Hadoop 大数据" />
         <updated>2020-11-17T15:29:02.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/2020/11/14/demo2/</id>
-        <title>demo2</title>
-        <link rel="alternate" href="http://example.com/2020/11/14/demo2/"/>
-        <content type="html">&lt;p&gt;你这个坏孩子，没有人怪你啊&lt;/p&gt;
-&lt;p&gt;sss&lt;/p&gt;
-</content>
-        <updated>2020-11-14T12:27:26.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/2020/11/14/My-New-Post/</id>
-        <title>My New Post</title>
-        <link rel="alternate" href="http://example.com/2020/11/14/My-New-Post/"/>
-        <content type="html">&lt;p&gt;dsfsdfsdfsd 多少发 第三方是的发水电费是 水电费发是的 发的 d&#39;s&lt;/p&gt;
-</content>
-        <category term="测试" />
-        <updated>2020-11-14T08:38:35.000Z</updated>
     </entry>
 </feed>
