@@ -66,8 +66,11 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Hadoop 完全分布式集群是典型的主从架构，一般需要使用多台服务器来组建。本文集群的拓扑图如下所示，请注意各个服务器的 IP 与名称，在后续的配置工作中将会经常被使用。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;source_posts%5Cimages%5C2.png&#34; alt=&#34;image-20201118001343393&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Hadoop 完全分布式集群是典型的&lt;strong&gt;主从架构&lt;/strong&gt;，一般需要使用多台服务器来组建。本文集群的拓扑图如下所示，请注意各个服务器的 IP 与名称，在后续的配置工作中将会经常被使用。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://imgchr.com/i/DeQIHg&#34;&gt;&lt;img data-src=&#34;https://s3.ax1x.com/2020/11/18/DeQIHg.png&#34; alt=&#34;DeQIHg.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;red&#34;&gt;注意事项&lt;/span&gt;：如果在虚拟机中设置 ip 时，注意&lt;strong&gt;虚拟网络编辑器&lt;/strong&gt;中的 ip。&lt;/p&gt;
+&lt;h1 id=&#34;21-安装及配置虚拟机&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#21-安装及配置虚拟机&#34;&gt;#&lt;/a&gt; 2.1 安装及配置虚拟机&lt;/h1&gt;
+&lt;h2 id=&#34;211-创建linux虚拟机&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#211-创建linux虚拟机&#34;&gt;#&lt;/a&gt; 2.1.1 创建 Linux 虚拟机&lt;/h2&gt;
 </content>
         <category term="Hadoop 大数据" />
         <updated>2020-11-17T15:29:02.000Z</updated>
