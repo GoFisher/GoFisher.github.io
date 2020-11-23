@@ -3,13 +3,13 @@
     <id>http://example.com</id>
     <title>余心所善，九死未悔！ • Posts by &#34;7.centos6.5配置hadoop&#34; category</title>
     <link href="http://example.com" />
-    <updated>2020-11-22T10:37:33.153Z</updated>
+    <updated>2020-11-23T03:05:31.833Z</updated>
     <category term="大数据技术与应用" />
     <category term="Hadoop" />
     <entry>
-        <id>http://example.com/2020/11/22/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/CentOS6.5%E9%85%8D%E7%BD%AEHadoop/</id>
+        <id>http://example.com/2020/11/23/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/CentOS6.5%E9%85%8D%E7%BD%AEHadoop/</id>
         <title>7.CentOS6.5配置Hadoop</title>
-        <link rel="alternate" href="http://example.com/2020/11/22/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/CentOS6.5%E9%85%8D%E7%BD%AEHadoop/"/>
+        <link rel="alternate" href="http://example.com/2020/11/23/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/CentOS6.5%E9%85%8D%E7%BD%AEHadoop/"/>
         <content type="html">&lt;h1 id=&#34;centos65-配置hadoop&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#centos65-配置hadoop&#34;&gt;#&lt;/a&gt; CentOS6.5 配置 Hadoop&lt;/h1&gt;
 &lt;h1 id=&#34;上传hadoop-265targz文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#上传hadoop-265targz文件&#34;&gt;#&lt;/a&gt; 上传 hadoop-2.6.5.tar.gz 文件&lt;/h1&gt;
 &lt;ul&gt;
@@ -139,6 +139,6 @@ slave1 和 slave2 节点上的进程情况&lt;br /&gt;
 </content>
         <category term="大数据技术与应用" />
         <category term="Hadoop" />
-        <updated>2020-11-22T10:37:33.153Z</updated>
+        <updated>2020-11-23T03:05:31.833Z</updated>
     </entry>
 </feed>

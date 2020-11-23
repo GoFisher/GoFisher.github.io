@@ -5,17 +5,17 @@
         <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Sun, 22 Nov 2020 18:37:33 +0800</pubDate>
-        <lastBuildDate>Sun, 22 Nov 2020 18:37:33 +0800</lastBuildDate>
+        <pubDate>Mon, 23 Nov 2020 11:05:31 +0800</pubDate>
+        <lastBuildDate>Mon, 23 Nov 2020 11:05:31 +0800</lastBuildDate>
         <category>大数据技术与应用</category>
         <category>Hadoop</category>
         <item>
-            <guid isPermalink="true">http://example.com/2020/11/22/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/CentOS6.5%E9%85%8D%E7%BD%AEHadoop/</guid>
+            <guid isPermalink="true">http://example.com/2020/11/23/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/CentOS6.5%E9%85%8D%E7%BD%AEHadoop/</guid>
             <title>7.CentOS6.5配置Hadoop</title>
-            <link>http://example.com/2020/11/22/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/CentOS6.5%E9%85%8D%E7%BD%AEHadoop/</link>
+            <link>http://example.com/2020/11/23/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/CentOS6.5%E9%85%8D%E7%BD%AEHadoop/</link>
             <category>大数据技术与应用</category>
             <category>Hadoop</category>
-            <pubDate>Sun, 22 Nov 2020 18:37:33 +0800</pubDate>
+            <pubDate>Mon, 23 Nov 2020 11:05:31 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;centos65-配置hadoop&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#centos65-配置hadoop&#34;&gt;#&lt;/a&gt; CentOS6.5 配置 Hadoop&lt;/h1&gt;
 &lt;h1 id=&#34;上传hadoop-265targz文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#上传hadoop-265targz文件&#34;&gt;#&lt;/a&gt; 上传 hadoop-2.6.5.tar.gz 文件&lt;/h1&gt;
 &lt;ul&gt;
