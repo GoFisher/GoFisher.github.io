@@ -221,7 +221,6 @@
 &lt;p&gt;（2) 修改 /etc/profile 文件，并配置环境变量，并测试 hadoop 是否成功安装&lt;br /&gt;
  &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption&gt;&lt;span&gt;hadoop环境变量配置&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;[root@master ~]&lt;span class=&#34;comment&#34;&gt;# vi /etc/profile&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; i &lt;span class=&#34;keyword&#34;&gt;in&lt;/span&gt; /etc/profile.d/*.sh ; &lt;span class=&#34;keyword&#34;&gt;do&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ -r &lt;span class=&#34;string&#34;&gt;&amp;quot;&lt;span class=&#34;variable&#34;&gt;$i&lt;/span&gt;&amp;quot;&lt;/span&gt; ]; &lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ &lt;span class=&#34;string&#34;&gt;&amp;quot;&lt;span class=&#34;variable&#34;&gt;$&amp;#123;-#*i&amp;#125;&lt;/span&gt;&amp;quot;&lt;/span&gt; != &lt;span class=&#34;string&#34;&gt;&amp;quot;$-&amp;quot;&lt;/span&gt; ]; &lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            . &lt;span class=&#34;string&#34;&gt;&amp;quot;&lt;span class=&#34;variable&#34;&gt;$i&lt;/span&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            . &lt;span class=&#34;string&#34;&gt;&amp;quot;&lt;span class=&#34;variable&#34;&gt;$i&lt;/span&gt;&amp;quot;&lt;/span&gt; &amp;gt;/dev/null 2&amp;gt;&amp;amp;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;done&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;unset&lt;/span&gt; i&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;unset&lt;/span&gt; -f pathmunge&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;export&lt;/span&gt; JAVA_HOME=/usr/java/jdk1.7.0_79&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;export&lt;/span&gt; PATH=&lt;span class=&#34;variable&#34;&gt;$PATH&lt;/span&gt;:&lt;span class=&#34;variable&#34;&gt;$JAVA_HOME&lt;/span&gt;/bin&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;export&lt;/span&gt; HADOOP_HOME=/usr/hadoop/hadoop-2.6.0  &lt;span class=&#34;comment&#34;&gt;# 添加hadoop路径&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;export&lt;/span&gt; PATH=&lt;span class=&#34;variable&#34;&gt;$PATH&lt;/span&gt;:&lt;span class=&#34;variable&#34;&gt;$HADOOP_HOME&lt;/span&gt;/bin&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;[root@master ~]&lt;span class=&#34;comment&#34;&gt;# source /etc/profile&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;[root@master ~]&lt;span class=&#34;comment&#34;&gt;# hadoop version&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Hadoop 2.6.0&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Subversion https://git-wip-us.apache.org/repos/asf/hadoop.git -r e3496499ecb8d220fba99dc5ed4c99c8f9e33bb1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Compiled by jenkins on 2014-11-13T21:10Z&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Compiled with protoc 2.5.0&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;From &lt;span class=&#34;built_in&#34;&gt;source&lt;/span&gt; with checksum 18e43357c8f927c0695f1e9522859d6a&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;This &lt;span class=&#34;built_in&#34;&gt;command&lt;/span&gt; was run using /usr/hadoop/hadoop-2.6.0/share/hadoop/common/hadoop-common-2.6.0.jar&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;[root@master ~]&lt;span class=&#34;comment&#34;&gt;# &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;（3）修改 hadoop 配置文件，需要需改的配置文件（&lt;strong&gt;/hadoop 安装目录 /etc/hadoop&lt;/strong&gt;），如下表格所示。&lt;/p&gt;
-&lt;div class=&#34;note info&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;ol&gt;
@@ -259,7 +258,6 @@
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;note info&#34;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -336,8 +334,6 @@
 &lt;li&gt;&lt;strong&gt;slave&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption&gt;&lt;span&gt;slaves配置文件&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;[root@master hadoop]# vi slaves&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;#删除localhost，添加：&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;slave1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;slave2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
  ]]></description>
         </item>
         <item>
@@ -735,18 +731,18 @@ RPM 管理支持事务机制。增强了程序安装卸载的管理。&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2020/11/14/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/%E6%AF%8F%E5%91%A8%E4%B8%80%E7%BB%83/demo2/</guid>
+            <guid isPermalink="true">http://example.com/2020/11/14/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/Linux%E7%BD%91%E7%BB%9C%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/demo2/</guid>
             <title>demo2</title>
-            <link>http://example.com/2020/11/14/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/%E6%AF%8F%E5%91%A8%E4%B8%80%E7%BB%83/demo2/</link>
+            <link>http://example.com/2020/11/14/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/Linux%E7%BD%91%E7%BB%9C%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/demo2/</link>
             <pubDate>Sat, 14 Nov 2020 20:27:26 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;你这个坏孩子，没有人怪你啊&lt;/p&gt;
 &lt;p&gt;sss&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2020/11/14/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/Linux%E7%BD%91%E7%BB%9C%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/demo2/</guid>
+            <guid isPermalink="true">http://example.com/2020/11/14/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/%E6%AF%8F%E5%91%A8%E4%B8%80%E7%BB%83/demo2/</guid>
             <title>demo2</title>
-            <link>http://example.com/2020/11/14/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/Linux%E7%BD%91%E7%BB%9C%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/demo2/</link>
+            <link>http://example.com/2020/11/14/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/%E6%AF%8F%E5%91%A8%E4%B8%80%E7%BB%83/demo2/</link>
             <pubDate>Sat, 14 Nov 2020 20:27:26 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;你这个坏孩子，没有人怪你啊&lt;/p&gt;
 &lt;p&gt;sss&lt;/p&gt;
