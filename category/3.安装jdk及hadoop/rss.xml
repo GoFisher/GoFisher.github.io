@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>余心所善，九死未悔！ • Posts by &#34;6.安装jdk及hadoop&#34; category</title>
+        <title>余心所善，九死未悔！ • Posts by &#34;3.安装jdk及hadoop&#34; category</title>
         <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
@@ -40,37 +40,37 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2hhZG9vcC1lbnYuc2g=&#34;&gt;hadoop-env.sh&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;hadoop-env.sh 配置文件&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3lhcm4tZW52LnNo&#34;&gt;yarn-env.sh&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;yarn-env.sh 配置文件&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;core.site.xml&lt;/li&gt;
+&lt;li&gt;core.site.xml 配置文件&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;hdfs-site.xml&lt;/li&gt;
+&lt;li&gt;hdfs-site.xml 配置文件&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;mapred-site.xml&lt;/li&gt;
+&lt;li&gt;mapred-site.xml 配置文件&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;yarn-site.xml&lt;/li&gt;
+&lt;li&gt;yarn-site.xml 配置文件&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;ol start=&#34;7&#34;&gt;
-&lt;li&gt;slaves&lt;/li&gt;
+&lt;li&gt;slaves 配置文件&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
