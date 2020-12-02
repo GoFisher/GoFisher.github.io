@@ -3,18 +3,15 @@
     <id>http://example.com</id>
     <title>余心所善，九死未悔！ • Posts by &#34;4.配置免密码登录&#34; category</title>
     <link href="http://example.com" />
-    <updated>2020-11-22T09:08:21.596Z</updated>
+    <updated>2020-12-02T11:33:42.425Z</updated>
     <category term="大数据技术与应用" />
     <category term="Hadoop" />
     <entry>
-        <id>http://example.com/2020/11/22/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/%E9%85%8D%E7%BD%AE%E5%85%8D%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95/</id>
-        <title>4.配置免密码登录</title>
-        <link rel="alternate" href="http://example.com/2020/11/22/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/%E9%85%8D%E7%BD%AE%E5%85%8D%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95/"/>
+        <id>http://example.com/2020/12/02/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/%E9%85%8D%E7%BD%AE%E5%85%8D%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95/</id>
+        <title>6.配置免密码登录</title>
+        <link rel="alternate" href="http://example.com/2020/12/02/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/%E9%85%8D%E7%BD%AE%E5%85%8D%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95/"/>
         <content type="html">&lt;h1 id=&#34;配置免密码登录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置免密码登录&#34;&gt;#&lt;/a&gt; 配置免密码登录&lt;/h1&gt;
 &lt;p&gt;SSH (Secure Shell) 是建立在 TCP/IP 协议的应用层和传输层基础上的安全协议。SSH 保障了远程登录和网络传输服务的安全性，起到了防止信息泄露等作用。通过 SSH 可以对文件进行加密处理，SSH 也可以运行于多平台，配置 SSH 无密码登录的步骤如下。&lt;/p&gt;
-&lt;h2 id=&#34;配置ip映射&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置ip映射&#34;&gt;#&lt;/a&gt; 配置 IP 映射&lt;/h2&gt;
-&lt;p&gt;在 master、slave1 和 slave2 节点虚拟机上修改 /etc/hosts 文件，添加如下信息：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption&gt;&lt;span&gt;ip映射&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;[root@master ~]&lt;span class=&#34;comment&#34;&gt;# vi /etc/hosts&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;::1         localhost localhost.localdomain localhost6 localhost6.localdomain6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;192.168.146.171 master  &lt;span class=&#34;comment&#34;&gt;#配置的ip 对应的主机名 ip存在不一样需要修改&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;192.168.146.172 slave1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;192.168.146.173 slave2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;[root@slave1 ~]&lt;span class=&#34;comment&#34;&gt;# vi /etc/hosts		# slave1节点虚拟机&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;::1         localhost localhost.localdomain localhost6 localhost6.localdomain6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;192.168.146.171 master  &lt;span class=&#34;comment&#34;&gt;#配置的ip 对应的主机名 ip存在不一样需要修改&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;192.168.146.172 slave1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;192.168.146.173 slave2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;[root@slave2 ~]&lt;span class=&#34;comment&#34;&gt;# vi /etc/hosts			# slave2节点虚拟机&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;::1         localhost localhost.localdomain localhost6 localhost6.localdomain6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;192.168.146.171 master  &lt;span class=&#34;comment&#34;&gt;#配置的ip 对应的主机名 ip存在不一样需要修改&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;192.168.146.172 slave1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;192.168.146.173 slave2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h2 id=&#34;配置ssh无密码登录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置ssh无密码登录&#34;&gt;#&lt;/a&gt; 配置 SSH 无密码登录&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;（1）使用 ssh-keygen 产生公钥与私钥对，输入命令 “ssh-keygen -t rsa”，接着按三次 Enter 键。&lt;br /&gt;
@@ -28,6 +25,6 @@
 </content>
         <category term="大数据技术与应用" />
         <category term="Hadoop" />
-        <updated>2020-11-22T09:08:21.596Z</updated>
+        <updated>2020-12-02T11:33:42.425Z</updated>
     </entry>
 </feed>

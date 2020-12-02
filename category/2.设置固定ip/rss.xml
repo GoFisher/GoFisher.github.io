@@ -17,7 +17,7 @@
             <category>Hadoop</category>
             <pubDate>Sun, 22 Nov 2020 12:14:12 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;设置固定ip&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#设置固定ip&#34;&gt;#&lt;/a&gt; 设置固定 IP&lt;/h1&gt;
-&lt;p&gt;搭建的集群总共 3 台虚拟机，每台虚拟机均使用&lt;strong&gt; NAT&lt;/strong&gt; 模式接入网络，为其分配 IP 并保证每台虚拟机的 IP 处于同一子网段内。所有需要配置固定虚拟机的 IP 地址，这里以虚拟机 master 为例，详细介绍虚拟机固定 IP 地址的步骤。&lt;/p&gt;
+&lt;p&gt;搭建的集群总共 3 台虚拟机，每台虚拟机均使用&lt;strong&gt; NAT 模式&lt;/strong&gt;接入网络，为其分配 IP 并保证每台虚拟机的 IP 处于同一子网段内。所有需要配置固定虚拟机的 IP 地址，这里以虚拟机 master 为例，详细介绍虚拟机固定 IP 地址的步骤。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;(1) 开启虚拟机并登陆&lt;br /&gt;

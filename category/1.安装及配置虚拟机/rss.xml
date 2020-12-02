@@ -71,7 +71,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;（11）弹出 “Disc Found” 对话框，选择 “OK” 来测试安装媒体，即 DVD 光盘，如图 1-12 所示、选择 “Skip” 表示跳过，进入下一个界面之后直接单击 “Next” 按钮。&lt;/p&gt;
+&lt;p&gt;（11）弹出 “Disc Found” 对话框，选择 “OK” 来测试安装媒体，即 DVD 光盘，如图 1-12 所示、选择 “Skip” 表示跳过，进入下一个界面之后直接单击 “Next” 按钮，这里选择 “Skip” 跳过测试环节。&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://s3.ax1x.com/2020/11/19/DK86oV.png&#34; alt=&#34;DK86oV.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;（12）选择安装的语言，这里选择 “Englisg（English）”，如图 1-13 所示。&lt;/p&gt;
 &lt;p class=&#34;gallery&#34; data-height=&#34;180&#34;&gt;&lt;img data-src=&#34;https://s3.ax1x.com/2020/11/19/DK82JU.png&#34; alt=&#34;DK82JU.png&#34; title=&#34;图1-13 选择安装语言&#34; /&gt;&lt;br /&gt;
@@ -92,7 +92,7 @@
 &lt;img data-src=&#34;https://s3.ax1x.com/2020/11/19/DK87o6.png&#34; alt=&#34;DK87o6.png&#34; title=&#34;图1-21 提示确认格式化与写入数据&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;（20）开始安装的过程，如图 1-22 所示。&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://s3.ax1x.com/2020/11/19/DK8qJO.png&#34; alt=&#34;DK8qJO.png&#34; title=&#34;图1-22 开始安装&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;（21）安装完成，单击 “Reboot” 按钮，如图 1-23 所示，进入 CentOS 系统。&lt;/p&gt;
+&lt;p&gt;（21）安装完成，单击 “reboot” 按钮，如图 1-23 所示，进入 CentOS 系统。&lt;/p&gt;
 &lt;p class=&#34;gallery&#34; data-height=&#34;180&#34;&gt;&lt;img data-src=&#34;https://s3.ax1x.com/2020/11/19/DK8bFK.png&#34; alt=&#34;DK8bFK.png&#34; title=&#34;图1-23 安装完成&#34; /&gt;&lt;br /&gt;
 &lt;img data-src=&#34;https://s3.ax1x.com/2020/11/19/DK8LWD.png&#34; alt=&#34;DK8LWD.png&#34; title=&#34;图1-24 登录&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;（22）登录，输入用户名 “root” 以及密码 “123456”，如图 1-24 所示。&lt;/p&gt;
