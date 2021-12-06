@@ -5,8 +5,8 @@
     <link href="http://example.com" />
     <updated>2020-12-02T11:33:43.701Z</updated>
     <category term="大数据技术与应用" />
-    <category term="Hadoop" />
     <category term="Hive" />
+    <category term="Hadoop" />
     <entry>
         <id>http://example.com/2020/12/02/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/%E5%90%AF%E5%8A%A8Hadoop%E9%9B%86%E7%BE%A4/</id>
         <title>7.启动Hadoop并查看</title>
