@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title> • Posts by &#34;蓝桥杯&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2022-01-12T14:33:19.055Z</updated>
+    <category term="学科竞赛" />
+    <category term="蓝桥杯" />
+    <category term="大数据技术与应用" />
+    <category term="Hive" />
+    <category term="Hadoop" />
+    <entry>
+        <id>http://example.com/2022/01/12/%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%A0%81/%E5%AD%A6%E7%A7%91%E7%AB%9E%E8%B5%9B/2022%E5%B9%B4%E7%AC%AC%E5%8D%81%E4%B8%89%E5%B1%8A%E8%93%9D%E6%A1%A5%E6%9D%AF%E6%8C%87%E5%8D%97/</id>
+        <title>2022年第十三届蓝桥杯大赛备赛指南</title>
+        <link rel="alternate" href="http://example.com/2022/01/12/%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%A0%81/%E5%AD%A6%E7%A7%91%E7%AB%9E%E8%B5%9B/2022%E5%B9%B4%E7%AC%AC%E5%8D%81%E4%B8%89%E5%B1%8A%E8%93%9D%E6%A1%A5%E6%9D%AF%E6%8C%87%E5%8D%97/"/>
+        <content type="html">&lt;h1 id=&#34;2022年第十三届蓝桥杯大赛备赛指南&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2022年第十三届蓝桥杯大赛备赛指南&#34;&gt;#&lt;/a&gt; 2022 年第十三届蓝桥杯大赛备赛指南&lt;/h1&gt;
+&lt;p&gt;​		软件和信息技术产业作为我国的核心产业，是经济社会发展的先导性、战略性产业，软件和信息技术产业在推进信息化和工业化融合，转变发展方式，维护国家安全等方面发挥着重要作用。为推动软件和信息技术产业的发展，促进软件和信息技术专业技术人才培养，向软件和信息技术行业输送具有创新能力和实践能力的高端人才，提升高校毕业生的就业竞争力，全面推动行业发展及人才培养进程，工业和信息化部人才交流中心已成功举办十二届蓝桥杯大赛。大赛的举办得到了各省教育厅和各有关院校的积极响应，更得到了参赛师生的广泛好评，参赛学校超过 1600 余所，参赛规模已超五十万人次，取得了良好的社会效果。&lt;/p&gt;
+&lt;p&gt;​		为贯彻落实《中国教育现代化 2035》和《国务院关于印发新时期促进集成电路产业和软件产业高质量发展若干政策的通知》有关精神，为我国制造强国和网络强国战略提供人才支持，加快高等院校计算机、软件及电子信息专业教学创新与改革，提高学生自主创新意识和工程实践能力，中心决定举办第十三届蓝桥杯全国软件和信息技术专业人才大赛。本次大赛由工业和信息化部人才交流中心作为主办单位。大赛入围中国高等教育学会 “全国普通高校大学生竞赛排行榜” 竞赛项目榜单。蓝桥杯官网&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kYXNhaS5sYW5xaWFvLmNuLw==&#34;&gt;蓝桥杯大赛 —— 全国大学生 TMT 行业赛事 (lanqiao.cn)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe
+    border=0
+    frameborder=0
+    height=450
+    width=100%  
+    src=&#34;https://dasai.lanqiao.cn/pages/dasai/index.html&#34;&gt;
+&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2 id=&#34;蓝桥杯比赛章程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#蓝桥杯比赛章程&#34;&gt;#&lt;/a&gt; 蓝桥杯比赛章程&lt;/h2&gt;
+&lt;h3 id=&#34;组织架构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#组织架构&#34;&gt;#&lt;/a&gt; 组织架构&lt;/h3&gt;
+&lt;p&gt;​		大赛设置全国组织委员会，并在全国参赛院校数量较多、参赛人数规模较大的城市选拔院校设置赛点。&lt;/p&gt;
+&lt;h4 id=&#34;全国组委会&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#全国组委会&#34;&gt;#&lt;/a&gt; &lt;strong&gt;全国组委会&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;​		本届大赛由工业和信息化部人才交流中心作为主办单位，由国信蓝桥数字科技（杭州）有限公司负责承办并统一收取大赛相关费用。大赛组委会秘书处设在工业和信息化部人才交流中心。&lt;/p&gt;
+&lt;h4 id=&#34;举办省份&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#举办省份&#34;&gt;#&lt;/a&gt; &lt;strong&gt;举办省份&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;北京、上海、天津、重庆、河北、山西、内蒙古、辽宁、吉林、黑龙江、江苏、浙江、安徽、福建、江西、山东、河南、湖北、湖南、广东、广西、海南、四川、贵州、云南、陕西、甘肃、宁夏、青海、新疆、西藏、澳门。&lt;/p&gt;
+&lt;h4 id=&#34;赛点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#赛点&#34;&gt;#&lt;/a&gt; &lt;strong&gt;赛点&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;​		大赛计划在报名人数比较集中的，符合报名要求、且能提供足够数量的符合大赛需求的软件环境和硬件设备的院校设立赛点。赛点的设立既考虑报名人数，又要考虑区域的地理分布。赛点学校必须是有实力、有声望，对于组织当年省赛有很大的积极性。赛点的设立由蓝桥杯大赛组委会确认，并签订相应协议。各学校赛点严格按照大赛章程、实施办法及《“全国软件和信息技术专业人才大赛” 规则与赛场纪律》组织省赛。&lt;/p&gt;
+&lt;p&gt;​		如因疫情影响，大赛将在部分受影响区域安排组织线上比赛。&lt;/p&gt;
+&lt;h3 id=&#34;竞赛组别&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#竞赛组别&#34;&gt;#&lt;/a&gt; 竞赛组别&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/gofisher/typora_pic/raw/master/images/image-20220112151422944.png&#34; alt=&#34;image-20220112151422944&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;比赛报名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#比赛报名&#34;&gt;#&lt;/a&gt; 比赛报名&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/gofisher/typora_pic/raw/master/images/timeline.e878746.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;报名方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#报名方式&#34;&gt;#&lt;/a&gt; 报名方式&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/gofisher/typora_pic/raw/master/images/image-20220112151636774.png&#34; alt=&#34;image-20220112151636774&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;​		各参赛学校需为每位参赛选手配备一名指导教师，&lt;strong&gt;每名选手的指导教师最多一名&lt;/strong&gt;，同一名指导教师可指导多位选手。&lt;strong&gt;省赛和决赛比赛后指导教师原则上不能更改&lt;/strong&gt;。&lt;/p&gt;
+&lt;h4 id=&#34;报名及参赛费用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#报名及参赛费用&#34;&gt;#&lt;/a&gt; 报名及参赛费用&lt;/h4&gt;
+&lt;p&gt;1.C/C++ 程序设计、Java 软件开发、Python 程序设计、Web 应用开发、嵌入式设计与开发、单片机设计与开发、物联网设计与开发、EDA 设计与开发，&lt;strong&gt;每个科目组别报名费为 300 元 / 人&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;2. 如选手进入决赛，在决赛报名时，科目和组别需与省赛保持一致，不可更换科目和组别。&lt;/p&gt;
+&lt;p&gt;3. 选手及指导教师在省赛、决赛期间发生的住宿、用餐、交通等费用自理。&lt;/p&gt;
+&lt;h4 id=&#34;组织工作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#组织工作&#34;&gt;#&lt;/a&gt; &lt;strong&gt;组织工作&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;大赛的报名、交费、下载准考证等工作全部通过蓝桥杯官方网站在线报名系统完成。&lt;/p&gt;
+&lt;h3 id=&#34;竞赛规则及说明软件类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#竞赛规则及说明软件类&#34;&gt;#&lt;/a&gt; 竞赛规则及说明（软件类）&lt;/h3&gt;
+&lt;h4 id=&#34;竞赛赛程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#竞赛赛程&#34;&gt;#&lt;/a&gt; 竞赛赛程&lt;/h4&gt;
+&lt;p&gt;预赛（省赛）时长：4 小时。 C/C++ 和 Java 所有组别同时进行。&lt;/p&gt;
+&lt;p&gt;决赛时长：4 小时。&lt;/p&gt;
+&lt;h4 id=&#34;竞赛形式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#竞赛形式&#34;&gt;#&lt;/a&gt; 竞赛形式&lt;/h4&gt;
+&lt;p&gt;个人赛，一人一机，全程机考。选手机器通过局域网连接到各个赛场的竞赛服务器。选手答题过程中无法访问互联网，也不允许使用本机以外的资源（如 USB 连接）。竞赛系统以 “服务器 - 浏览器” 方式发放试题、回收选手答案。&lt;/p&gt;
+&lt;h4 id=&#34;参赛选手机器环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#参赛选手机器环境&#34;&gt;#&lt;/a&gt; 参赛选手机器环境&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;学生机环境 - Java 编程环境（第十三届大赛）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;链接:  &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMW5aMVVWb1BBMWtiUkdWcnBVeHFSU3c=&#34;&gt;https://pan.baidu.com/s/1nZ1UVoPA1kbRGVrpUxqRSw&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;提取码: 5bmi&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/gofisher/typora_pic/raw/master/images/image-20220112153818291.png&#34; alt=&#34;image-20220112153818291&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3VwbG9hZC5sYW5xaWFvLmNuL2ZpbGUvMjAxODAyMDcvMTUxNzk4MzIzMjQxODE0Mi5wZGY=&#34;&gt;“蓝桥杯” 比赛系统 选手文档.pdf&lt;/span&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;C/C++ 语言开发环境&lt;/th&gt;
+&lt;th&gt;Java 语言开发环境&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Dev-cpp 5.4.0&lt;/td&gt;
+&lt;td&gt;JDK 1.8、Eclipse-java-2020-06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C/C++ API 帮助文档&lt;/td&gt;
+&lt;td&gt;API 帮助文档&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;试题形式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#试题形式&#34;&gt;#&lt;/a&gt; 试题形式&lt;/h4&gt;
+&lt;p&gt;竞赛题目完全为客观题型。根据选手所提交答案的测评结果为评分依据。共有两种题型。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubGFucWlhby5jbi9jb3Vyc2VzLzI3ODYvbGVhcm5pbmcvP2lkPTI4MDgzMQ==&#34;&gt;蓝桥杯大赛历届真题 蓝桥云课 (lanqiao.cn)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/gofisher/typora_pic/raw/master/images/image-20220112172041820.png&#34; alt=&#34;image-20220112172041820&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;奖项设置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#奖项设置&#34;&gt;#&lt;/a&gt; 奖项设置&lt;/h4&gt;
+&lt;p&gt;全国总决赛按参赛项目和成绩，为获奖学生、教师和组织单位颁发相应证书和奖励。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;奖项&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;参赛选手奖&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;个人赛根据相应组别分别设立一、二、三等奖及优秀奖。其中，一等奖不高于 5%，二等奖占 20%，三等奖不低于 35%，优秀奖不超过 40%，零分卷不得奖。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;指导老师奖&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;所有获奖选手的指导教师，均可获得 “蓝桥杯全国软件和信息技术专业人才大赛优秀指导教师” 证书。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;参赛学校奖&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;参赛组织工作成绩突出、经审批符合相关条件的单位，获 “蓝桥杯全国软件和信息技术专业人才大赛优秀组织单位” 称号；&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;获奖证书&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;为响应国家节能环保政策，同时提升获奖证书发放时效，组委会从第十三届蓝桥杯大赛起，&lt;strong&gt;不再发放纸制获奖证书，统一改为提供电子版获奖证书&lt;/strong&gt;。电子版获奖证书可在蓝桥杯官网报名系统中自行下载。&lt;/p&gt;
+&lt;h2 id=&#34;蓝桥杯基础学习&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#蓝桥杯基础学习&#34;&gt;#&lt;/a&gt; 蓝桥杯基础学习&lt;/h2&gt;
+&lt;h3 id=&#34;第十三届蓝桥杯备赛公开课软件类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第十三届蓝桥杯备赛公开课软件类&#34;&gt;#&lt;/a&gt; 第十三届蓝桥杯备赛公开课（软件类）&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=718775345&amp;bvid=BV14Q4y1Q7hz&amp;cid=431835397&amp;page=1&amp;high_quality=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; height=450px width=100%px &gt; &lt;/iframe&gt;&lt;/p&gt;
+&lt;h3 id=&#34;蓝桥杯省赛题型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#蓝桥杯省赛题型&#34;&gt;#&lt;/a&gt; 蓝桥杯省赛题型&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/gofisher/typora_pic/raw/master/images/image-20220112203120227.png&#34; alt=&#34;image-20220112203120227&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;算法知识点总览&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#算法知识点总览&#34;&gt;#&lt;/a&gt; 算法知识点总览&lt;/h3&gt;
+&lt;p&gt;&lt;iframe id=&#34;embed_dom&#34; name=&#34;embed_dom&#34; frameborder=&#34;0&#34; style=&#34;display:block&#34; height=450px width=100%px src=&#34;https://www.processon.com/embed/61ded17b637689065d291f1a&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h3 id=&#34;蓝桥杯必考题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#蓝桥杯必考题&#34;&gt;#&lt;/a&gt; 蓝桥杯必考题&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/gofisher/typora_pic/raw/master/images/image-20220112211351987.png&#34; alt=&#34;image-20220112211351987&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;学习视频推荐&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#学习视频推荐&#34;&gt;#&lt;/a&gt; 学习视频推荐&lt;/h3&gt;
+&lt;h4 id=&#34;java基础视频&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java基础视频&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;%5B%E5%B0%9A%E7%A1%85%E8%B0%B7Java%E5%85%A5%E9%97%A8%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B(%E5%9C%A8%E7%BA%BF%E7%AD%94%E7%96%91+Java%E9%9D%A2%E8%AF%95%E7%9C%9F%E9%A2%98)_%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9_bilibili%5D(https://www.bilibili.com/video/BV1Kb411W75N?from=search&amp;amp;seid=2842687341701178110&amp;amp;spm_id_from=333.337.0.0)&#34;&gt;Java 基础视频&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=48144058&amp;bvid=BV1Kb411W75N&amp;cid=277201462&amp;page=1&amp;high_quality=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;height=450px width=100%px&gt; &lt;/iframe&gt;&lt;/p&gt;
+&lt;h4 id=&#34;蓝桥杯算法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#蓝桥杯算法&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;%5BB%E7%AB%99%E6%9C%80%E5%85%A8%E7%9A%842021%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%AE%97%E6%B3%95%E8%AF%BE%E3%80%8A%E7%AE%97%E6%B3%95%E5%BE%88%E7%BE%8E%E3%80%8B_%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9_bilibili%5D(https://www.bilibili.com/video/BV17U4y1s777?from=search&amp;amp;seid=7259184358204484659&amp;amp;spm_id_from=333.337.0.0)&#34;&gt;蓝桥杯算法&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=671370372&amp;bvid=BV17U4y1s777&amp;cid=305499640&amp;page=1&amp;high_quality=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; height=450px width=100%px&gt; &lt;/iframe&gt;&lt;/p&gt;
+&lt;h4 id=&#34;蓝桥杯题目解析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#蓝桥杯题目解析&#34;&gt;#&lt;/a&gt; 蓝桥杯题目解析&lt;/h4&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMUdFNDExRjdQaj9mcm9tPXNlYXJjaCZhbXA7c2VpZD01MzY2NTQ4NzQ5Mjc4MTUzMTMxJmFtcDtzcG1faWRfZnJvbT0zMzMuMzM3LjAuMA==&#34;&gt;【蓝桥杯】2013 年 - 2018 年蓝桥杯历年省赛真题 Java C++ A 组 B 组 C 组_哔哩哔哩_bilibili&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=96710163&amp;bvid=BV1GE411F7Pj&amp;cid=165097654&amp;page=1&amp;high_quality=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;height=450px width=100%px&gt; &lt;/iframe&gt;&lt;/p&gt;
+&lt;h2 id=&#34;蓝桥杯备赛系统刷题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#蓝桥杯备赛系统刷题&#34;&gt;#&lt;/a&gt; 蓝桥杯备赛系统（刷题）&lt;/h2&gt;
+&lt;h3 id=&#34;蓝桥杯练习系统&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#蓝桥杯练习系统&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2x4LmxhbnFpYW8uY24v&#34;&gt;蓝桥杯练习系统&lt;/span&gt;（已经申请授权通过）&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/gofisher/typora_pic/raw/master/images/image-20220112215901775.png&#34; alt=&#34;image-20220112215901775&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;（1）竞赛采用机器阅卷 + 少量人工辅助。选手需要特别注意提交答案的形式。必须仔细阅读题目的输入、输出要求以及示例，不要随意添加不需要的内容。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;（2）使用 Java 语言时，注意主类名必须是：Main，不能使用 package 语句。使用 C/C++ 语言时，注意主函数需要 return 0，如下所示：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption&gt;&lt;span&gt;Java实例&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; java.util.*;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;Main&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;class&#34;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(String args[])&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;    &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        Scanner sc = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; Scanner(System.in);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        Integer a = sc.nextInt();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        Integer b = sc.nextInt();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(a + b);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;（3）C 组与 C&lt;ins&gt; 组选手提交答案时，一定要注意选择 C 或 C&lt;/ins&gt;（即编译器类型）。因为使用机器阅卷，很可能会因为选手选择了错误的编译器，而使自己代码无法编译通过。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;蓝桥云课备赛专区&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#蓝桥云课备赛专区&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubGFucWlhby5jbi9jdXAvP3NvcnQ9c3R1ZGVudHNfY291bnQmYW1wO2NhdGVnb3J5X2lkPTM=&#34;&gt;蓝桥云课（备赛专区）&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/gofisher/typora_pic/raw/master/images/image-20220112220453541.png&#34; alt=&#34;image-20220112220453541&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;计蒜客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#计蒜客&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamlzdWFua2UuY29tL2NvbnRlc3QvMjY0NzU=&#34;&gt;计蒜客&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/gofisher/typora_pic/raw/master/images/image-20220112221106815.png&#34; alt=&#34;image-20220112221106815&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;力扣leetcode官网-全球极客挚爱的技术成长平台&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#力扣leetcode官网-全球极客挚爱的技术成长平台&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWV0Y29kZS1jbi5jb20v&#34;&gt;力扣（LeetCode）官网 - 全球极客挚爱的技术成长平台&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/gofisher/typora_pic/raw/master/images/image-20220112220640553.png&#34; alt=&#34;image-20220112220640553&#34; /&gt;&lt;/p&gt;
+</content>
+        <category term="学科竞赛" />
+        <category term="蓝桥杯" />
+        <updated>2022-01-12T14:33:19.055Z</updated>
+    </entry>
+</feed>

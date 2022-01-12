@@ -4,9 +4,11 @@
     <title> • Posts by &#34;hive安装教程&#34; category</title>
     <link href="http://example.com" />
     <updated>2021-12-01T16:49:21.872Z</updated>
+    <category term="学科竞赛" />
+    <category term="蓝桥杯" />
     <category term="大数据技术与应用" />
-    <category term="Hadoop" />
     <category term="Hive" />
+    <category term="Hadoop" />
     <entry>
         <id>http://example.com/2021/12/02/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/Hive%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E6%93%8D%E4%BD%9C/</id>
         <title>Hive数据类型操作</title>
